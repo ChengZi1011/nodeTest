@@ -3,7 +3,7 @@
 let fs =require('fs');
 
 // 读取文件
-fs.readFile("./file/古诗.txt",(err,data)=>{
+fs.readFile(__dirname+"\\file\\name.txt",(err,data)=>{
     if(err){
         console.log(err);
     }else{
